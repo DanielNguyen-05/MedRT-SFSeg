@@ -230,6 +230,12 @@ backups/
 !assets/
 !assets/**
 
+# Publish the paper website figures and qualitative results
+!/static/images/
+!/static/images/**
+!/website/static/images/
+!/website/static/images/**
+
 # RASP audit / benchmark outputs
 rasp_audit*.json
 rasp_depgraph_audit*.json
@@ -246,3 +252,5 @@ logs/
 runs/
 colab/
 tests/
+.claude/
+.githooks/
